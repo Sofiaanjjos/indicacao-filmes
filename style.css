@@ -1,0 +1,45 @@
+body {
+    background-color: #e0effe;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+/* Título principal */
+h1 {
+    background-color: #79bbfe;
+    color: #ffffff;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Títulos dos filmes */
+h2 {
+    color: #2c6ed5;
+    margin-top: 30px;
+}
+
+/* Imagens */
+img {
+    border-radius: 15px;
+    margin: 10px;
+}
+
+/* Descrição */
+p {
+    width: 60%;
+    margin: 10px auto;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Estrelas */
+p:last-of-type {
+    font-size: 18px;
+}
+
+/* Efeito ao passar o mouse */
+img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
